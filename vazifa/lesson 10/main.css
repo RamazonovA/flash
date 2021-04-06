@@ -1,0 +1,89 @@
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.col{
+    width: 32%;
+    position: relative;
+}
+.col img{
+    width: 100%;
+    filter: grayscale(1) blur(10px);
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+.col:hover img{
+    filter: grayscale(0) blur(0);
+}
+/*.overlay{*/
+/*    position: absolute;*/
+/*    left:0;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    background-color: #3a70ff;*/
+/*    color: #fff;*/
+/*    transition: all 0.2s ease-in-out;*/
+/*    overflow: hidden;*/
+/*    !*display: flex;*!*/
+/*    !*justify-content: center;*!*/
+/*    !*align-items: center;*!*/
+/*}*/
+/*.overlay div{*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    top: 50%;*/
+/*    transform: translate(-50%,-50%);*/
+/*}*/
+/*!* FADE EFFECT and FADE-OPACITY*!*/
+/*.fade .overlay, .fade-opacity .overlay{*/
+/*    opacity: 0;*/
+/*}*/
+/*.fade:hover .overlay, .fade-opacity:hover .overlay{*/
+/*    opacity: 1;*/
+/*}*/
+/*.fade-opacity .overlay{*/
+/*    background-color: rgba(255,255,255,0.8);*/
+/*}*/
+/*.fade-opacity .overlay div{*/
+/*    padding: 1rem 2rem;*/
+/*    background-color: #5aef76;*/
+/*}*/
+/*!*To Bottom*!*/
+/*.toBottom .overlay{*/
+/*    bottom: 100%;*/
+/*}*/
+/*.toBottom:hover .overlay{*/
+/*    bottom: 0;*/
+/*}*/
+/*!* To Top *!*/
+/*.toTop .overlay{*/
+/*    top: 100%;*/
+/*}*/
+/*.toTop:hover .overlay{*/
+/*    top: 0;*/
+/*}*/
+/*!* To Right *!*/
+/*.toRight .overlay{*/
+/*    right: 100%;*/
+/*}*/
+/*.toRight:hover .overlay{*/
+/*    right: 0;*/
+/*}*/
+/*!* To Left*!*/
+/*.toLeft .overlay{*/
+/*    left: 100%;*/
+/*}*/
+/*.toLeft:hover .overlay{*/
+/*    left: 0;*/
+/*}*/
+
+

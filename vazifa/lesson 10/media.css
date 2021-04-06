@@ -1,0 +1,43 @@
+@media (min-width: 0) and (max-width: 542px) {
+    .wrapper{
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+        margin:0 1rem;
+    }
+    .col{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .overlay{
+        background-color: blueviolet;
+    }
+}
+@media (min-width: 542.01px) and (max-width: 768px){
+    .wrapper{
+        width: 540px;
+    }
+    .row{
+        flex-direction: column;
+        margin: 0;
+        display: block;
+    }
+    .col{
+        width: 47%;
+        margin-top: 1rem;
+        display: inline-block;
+    }
+}
+@media (min-width: 768.1px) and (max-width: 992px) {
+
+    .wrapper{
+        width: 100%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .wrapper{
+        width: 100%;
+    }
+}

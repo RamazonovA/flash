@@ -1,0 +1,52 @@
+
+p{
+    text-transform: uppercase;
+}
+div p{
+   text-align: left;
+    text-transform: capitalize;
+}
+.paragraf-1{
+    color: indigo;
+}
+.paragraf-2{
+    color: mediumvioletred;
+}
+.paragraf-3{
+    color: blueviolet;
+}
+/*  */
+.text-center{
+     text-align: center;
+}
+
+.p{
+    color:green;
+}
+#p{
+    color: black;
+}
+p{
+    color:red;
+}
+div h1:not(:nth-child(4)){
+    color:red!important;
+}
+ul * li{
+    list-style: none;
+}
+/**{*/
+/*    color: green!important;*/
+/*}*/
+.box{
+    color: rgba(0,0,0,0.5);
+    text-transform: capitalize;
+    text-align: justify;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+    line-height: 30px;
+    text-decoration:line-through;
+}
+a{
+    text-decoration: none;
+}

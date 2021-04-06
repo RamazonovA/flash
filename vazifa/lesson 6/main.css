@@ -1,0 +1,39 @@
+
+.container
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+form{
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+}
+*{
+    box-sizing: border-box;
+}
+input:not([type=submit]):not([type=checkbox]):not([type=radio]), select, textarea{
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+}
+label{
+    display: inline-block;
+    margin-bottom: 8px;
+}
+input[type=submit]{
+    border: 1px solid darkblue;
+    color: darkblue;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 12px 15px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: darkblue;
+    color: #ffffff;
+}
